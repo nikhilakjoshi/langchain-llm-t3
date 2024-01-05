@@ -1,8 +1,8 @@
 import "~/styles/globals.css";
 
-import { Inter } from "next/font/google";
+import { Rubik } from "next/font/google";
 
-const inter = Inter({
+const rubik = Rubik({
   subsets: ["latin"],
   variable: "--font-sans",
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{children}</body>
+      <body className={`font-sans ${rubik.variable}`}>{children}</body>
     </html>
   );
 }
