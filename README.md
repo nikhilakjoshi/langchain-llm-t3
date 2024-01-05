@@ -12,6 +12,10 @@ If you are not familiar with the different technologies used in this project, pl
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
+## Styling
+
+- [ShadCN UI](https://ui.shadcn.com/docs)
+
 ## Purpose
 
 This is a POC for the use of langchain with the OpenAI (which has scope for expansion to other models) model to ingest wealthy individual data and answers queries based on the data using OpenAI's embeddings and generate vector representations of the data and use the same to answer queries.
